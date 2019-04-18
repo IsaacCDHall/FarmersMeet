@@ -19,9 +19,11 @@ function DisplayProduce(){
         `}
       </style>
       {availableProduce.map((produce, index) =>
-        <Produce month={produce.month}
+        <Produce 
+          month={produce.month}
           selection={produce.selection}
-          key={index}/>
+          key={index}
+        />
       )}
     </div>
 

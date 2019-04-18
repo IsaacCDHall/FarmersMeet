@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function Produce(props){
 
-
+  console.log(props);
 
   return (
     <div>

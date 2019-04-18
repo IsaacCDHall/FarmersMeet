@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -41,17 +42,28 @@ function Links() {
       <Link to="/" style={{ textDecoration: 'none' }}>
         <a>#Home</a>
       </Link>
-      <a href="#">#Snack Fest</a>
-      <Link to="/displayproduce" style={{ textDecoration: 'none' }}>
+      <Link to="/DisplayProduce" style={{ textDecoration: 'none' }}>
+        <a>#Snack Fest</a>
+      </Link>
+      <Link to="/DisplayProduce" style={{ textDecoration: 'none' }}>
         <a>#Produce</a>
       </Link>
-      <a href="#">#FAQ </a>
-      <a href="#">#Apply</a>
-      <a href="#">#Vendors </a>
-      <a href="#">#Map</a>
+
 
 
     </div>
   );
 }
 export default Links;
+// <Link to="/displayproduce" style={{ textDecoration: 'none' }}>
+// <a>#FAQ</a>
+// </Link>
+// <Link to="/displayproduce" style={{ textDecoration: 'none' }}>
+// <a>#Apply</a>
+// </Link>
+// <Link to="/displayproduce" style={{ textDecoration: 'none' }}>
+// <a>#Vendors</a>
+// </Link>
+// <Link to="/displayproduce" style={{ textDecoration: 'none' }}>
+// <a>#Map</a>
+// </Link>
